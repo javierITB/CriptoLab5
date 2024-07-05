@@ -1,0 +1,83 @@
+-Instalacvión docker: sudo apt-get install -y docker.io
+-Instalación Docker: sudo apt-get install -y docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+
+-Crea el contenedor para Ubuntu 16.10 (C1):
+docker run -d --name C1 ubuntu:16.10 sleep infinity
+
+-Crea el contenedor para Ubuntu 18.10 (C2):
+docker run -d --name C2 ubuntu:18.10 sleep infinity
+
+-Crea el contenedor para Ubuntu 20.10 (C3):
+docker run -d --name C3 ubuntu:20.10 sleep infinity
+
+-Crea el contenedor para Ubuntu 22.10 (C4 y S1):
+docker run -d --name S1_C4 ubuntu:22.10 sleep infinity
+
+
+Instala el cliente OpenSSH en cada contenedor (C1, C2, C3, C4):
+docker exec C1 apt-get update && docker exec C1 apt-get install -y openssh-client
+docker exec C2 apt-get update && docker exec C2 apt-get install -y openssh-client
+docker exec C3 apt-get update && docker exec C3 apt-get install -y openssh-client
+docker exec C4 apt-get update && docker exec S1_C4 apt-get install -y openssh-client
+
+vim resources.list
+deb http://old-releases.ubuntu.com/ubuntu/ kinetic main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ kinetic-updates main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ kinetic-backports main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ kinetic-security main restricted universe multiverse
+
+docker cp sources.list S1_C4:/etc/apt/sources.list
+
+vim resources.list
+deb http://old-releases.ubuntu.com/ubuntu/ yakkety main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ yakkety-updates main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ yakkety-security main restricted universe multiverse
+
+docker cp sources.list C1:/etc/apt/sources.list
+
+vim resources.list
+deb http://old-releases.ubuntu.com/ubuntu/ cosmic main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ cosmic-updates main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ cosmic-security main restricted universe multiverse
+
+docker cp sources.list C2:/etc/apt/sources.list
+
+vim resources.list
+deb http://old-releases.ubuntu.com/ubuntu/ groovy main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ groovy-updates main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ groovy-security main restricted universe multiverse
+
+docker cp sources.list C3:/etc/apt/sources.list
+
+Instalar SSH-Client:
+docker exec -it C1 bash
+apt-get update
+apt-get install -y openssh-client openssh-server
+
+docker exec -it C2 bash
+apt-get update
+apt-get install -y openssh-client openssh-server
+
+docker exec -it C3 bash
+apt-get update
+apt-get install -y openssh-client openssh-server
+
+docker exec -it S1_C4 bash
+apt-get update
+apt-get install -y openssh-client openssh-server
+
+Crea el usuario prueba en S1_C4 con contraseña prueba:
+docker exec -it S1_C4 bash
+useradd -m -s /bin/bash prueba
+echo "prueba:prueba" | chpasswd
+exit
+
+Configura el servidor SSH en S1_C4:
+docker exec S1_C4 service ssh start
+
+Obtén la dirección IP de S1_C4:
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' S1_C4
+172.17.0.5
+

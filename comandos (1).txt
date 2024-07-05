@@ -1,0 +1,57 @@
+sudo docker run -d --name C1 ubuntu:16.10 sleep infinity|
+sudo docker run -d --name C2 ubuntu:18.10 sleep infinity|
+sudo docker run -d --name C3 ubuntu:20.10 sleep infinity|
+sudo docker run -d --name S1_C4 ubuntu:22.10 sleep infinity
+
+sudo docker cp sources.list_c1 C1:/etc/apt/sources.list
+sudo docker cp sources.list_c2 C2:/etc/apt/sources.list
+sudo docker cp sources.list_c3 C3:/etc/apt/sources.list
+sudo docker cp sources.list_s1_c4 S1_C4:/etc/apt/sources.list
+
+Instalar OpenSSH client, (y Server en S1_C4)
+sudo docker exec -it S1_C4 bash -c "apt-get update && apt-get install -y openssh-client openssh-server && service ssh start"
+sudo docker exec -it C1 bash -c "apt-get update && apt-get install -y openssh-client"
+sudo docker exec -it C2 bash -c "apt-get update && apt-get install -y openssh-client"
+sudo docker exec -it C3 bash -c "apt-get update && apt-get install -y openssh-client"
+
+S1_IP=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' S1_C4)
+
+sudo docker exec -it S1_C4 bash
+useradd -m -s /bin/bash prueba
+echo "prueba:prueba" | chpasswd
+service ssh start
+exit
+
+
+Generar tráfico SSH hacia S1:
+sudo docker exec -it C1 bash -c "ssh -o StrictHostKeyChecking=no prueba@$S1_IP"
+sudo docker exec -it C2 bash -c "ssh -o StrictHostKeyChecking=no prueba@$S1_IP"
+sudo docker exec -it C3 bash -c "ssh -o StrictHostKeyChecking=no prueba@$S1_IP"
+sudo docker exec -it S1_C4 bash -c "ssh -o StrictHostKeyChecking=no prueba@$S1_IP"
+
+   C1 Protocol: SSH-2.0-OpenSSH_7.3p1 Ubuntu-1ubuntu0.1     107-107	Protocol: SSH-2.0-OpenSSH_9.0p1 Ubuntu-1ubuntu7.3
+   C2 Protocol: SSH-2.0-OpenSSH_7.7p1 Ubuntu-4ubuntu0.3		 	Protocol: SSH-2.0-OpenSSH_9.0p1 Ubuntu-1ubuntu7.3
+-> C3 Protocol: SSH-2.0-OpenSSH_8.3p1 Ubuntu-1ubuntu0.1		 	Protocol: SSH-2.0-OpenSSH_9.0p1 Ubuntu-1ubuntu7.3
+   C4 Protocol: SSH-2.0-OpenSSH_9.0p1 Ubuntu-1ubuntu7.3		 	Protocol: SSH-2.0-OpenSSH_9.0p1 Ubuntu-1ubuntu7.3   
+
+   [hassh: 0e4584cb9f2dd077dbf8ba0df8112d8e]	  	1498-1146	[hasshServer: a984ff804585fabe3cd08f4b3849024a]
+   [hassh: 06046964c022c6407d15a27b12a6a4fb]	  	1426-1146	[hasshServer: a984ff804585fabe3cd08f4b3849024a]
+-> [hassh: ae8bd7dd09970555aa4c6ed22adbbf56]	  	1578-1146	[hasshServer: a984ff804585fabe3cd08f4b3849024a]
+   [hassh: 78c05d999799066a2b4554ce7b1585a6]	  	1572-1146	[hasshServer: a984ff804585fabe3cd08f4b3849024a]
+   
+   C1:
+	Protocol: SSH-2.0-OpenSSH_7.3p1 Ubuntu-1ubuntu0.1 	107
+	[hassh: 0e4584cb9f2dd077dbf8ba0df8112d8e]		1498
+   C2 
+   	Protocol: SSH-2.0-OpenSSH_7.7p1 Ubuntu-4ubuntu0.3	107
+   	[hassh: 06046964c022c6407d15a27b12a6a4fb]		1426
+   C3 
+   	Protocol: SSH-2.0-OpenSSH_8.3p1 Ubuntu-1ubuntu0.	107
+   	[hassh: ae8bd7dd09970555aa4c6ed22adbbf56]		1578
+  C4 
+  	Protocol: SSH-2.0-OpenSSH_9.0p1 Ubuntu-1ubuntu7.3	107
+  	[hassh: 78c05d999799066a2b4554ce7b1585a6]		1572
+  Sv
+  	Protocol: SSH-2.0-OpenSSH_9.0p1 Ubuntu-1ubuntu7.3	107
+  	[hasshServer: a984ff804585fabe3cd08f4b3849024a]		1146
+  	

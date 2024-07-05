@@ -1,0 +1,807 @@
+    1  sudo dpkg -i discord-0.0.44.deb
+    2  sudo dpkg -i code_1.87.1-1709685762_amd64.deb
+    3  sudo apt install curl\n\nsudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg\n\necho "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list\n\nsudo apt update\n\nsudo apt install brave-browser
+    4  exit
+    5  sudo apt install curl\n\nsudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg\n\necho "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list\n\nsudo apt update\n\nsudo apt install brave-browser
+    6  sudo apt install curl\n\nsudo curl -fsSLo /usr/share/keyrings/brave-browser-nightly-archive-keyring.gpg https://brave-browser-apt-nightly.s3.brave.com/brave-browser-nightly-archive-keyring.gpg\n\necho "deb [signed-by=/usr/share/keyrings/brave-browser-nightly-archive-keyring.gpg] https://brave-browser-apt-nightly.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-nightly.list\n\nsudo apt update\n\nsudo apt install brave-browser-nightly
+    7  sudo apt update
+    8  sudo apt upgrade
+    9  sudo apt install curl\n\nsudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg\n\necho "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list\n\nsudo apt update\n\nsudo apt install brave-browser
+   10  exit
+   11  sudo apt update
+   12  sudo apt upgrade
+   13  exit
+   14  sudo dpkg -i discord-0.0.45.deb
+   15  exit
+   16  ssh-keygen
+   17  git config --global user.name "JavierITB"
+   18  git config --global user.email vicente.torresb@mail.udp.cl
+   19  exit
+   20  npm start
+   21  \nnpm install react-scripts@latest
+   22  \nnpm uninstall react-scripts@latest
+   23  cd ../..
+   24  git remote add origin git@github.com:xeromark/TodoGolf.git
+   25  git clone git@github.com:xeromark/TodoGolf.git
+   26  \nnpm install react-scripts@latest
+   27  exit
+   28  git clone git@github.com:xeromark/TodoGolf.git
+   29  npm audit
+   30  exit
+   31  npm start
+   32  npm install -g react-scripts@latest
+   33  npm audit
+   34  exit
+   35  git clone git@github.com:xeromark/TodoGolf.git
+   36  cd TodoGolf
+   37  npm audit
+   38  npm install react-scripts@latest
+   39  exit
+   40  git clone git@github.com:xeromark/TodoGolf.git
+   41  cd TodoGolf
+   42  npm install react-scripts@latest-stable
+   43  npm install react-scripts
+   44  git clone git@github.com:xeromark/TodoGolf.git
+   45  cd TodoGolf
+   46  cd web
+   47  npm start
+   48  cd ..
+   49  cd api
+   50  node api.js
+   51  cd ..
+   52  cd web
+   53  npm audit
+   54  cd ..
+   55  npm audit
+   56  cd ..
+   57  git add .
+   58  git commit -m "en proceso cambios en panel de administracion (se añadio item de ingreso manual de ventas)"
+   59  git push
+   60  git fetch
+   61  git pull
+   62  exit
+   63  cd ..
+   64  cd api
+   65  node api.js
+   66  exit
+   67  npm start
+   68  npm install react-scripts@latest
+   69  npm start
+   70  exit
+   71  cd ..
+   72  git add .
+   73  git commit -m "finalizada a insersion manual de ventas dentro del portal de administración, falta implementacion en api"
+   74  git push
+   75  node -v
+   76  git add .
+   77  git commit -m "editado formulario de pago en insersion de ventas"
+   78  git push
+   79  node -v
+   80  npm start
+   81  cd ..
+   82  cd api
+   83  node api.js
+   84  npm start
+   85  cd ..
+   86  cd api
+   87  node api.js
+   88  cd ..
+   89  git fetch
+   90  git add .
+   91  git commit -m "añadida interaccion con api en ingreso manual de ventas por admin"
+   92  git push
+   93  cd ..
+   94  git fetch
+   95  git pull
+   96  exit
+   97  cd ..
+   98  cd api
+   99  node api.js
+  100  npm start
+  101  cd ..
+  102  git add .
+  103  git commit -m "Api mas organizada (componentes reordenados)"
+  104  git push
+  105  nmap -sn
+  106  exit
+  107  cd ..
+  108  git add .
+  109  git commit -m "Añadida la comprobacion de usuario al verificar token"
+  110  git push
+  111  git fetch
+  112  git pull
+  113  git fetch
+  114  git pull
+  115  git add .
+  116  git commit -m "solucionando errores"
+  117  git push
+  118  git fetch
+  119  git push
+  120  git pull
+  121  git add .
+  122  git commit
+  123  git commit -m "uniendo ramas"
+  124  git push
+  125  git revert
+  126  git fetch
+  127  git pull
+  128  git config pull.rebase true
+  129  git pull
+  130  git status
+  131  git add .
+  132  git commit -m "esta va pal rafa"
+  133  git push
+  134  git pull
+  135  git push
+  136  exit
+  137  cd ..
+  138  cd api
+  139  node api.js
+  140  exit
+  141  npm start
+  142  exit
+  143  npm start
+  144  cd ..
+  145  cd api
+  146  node api.js
+  147  nmap -sV
+  148  ifconfig
+  149  nmap -sn 10.31.19.0/24
+  150  nmap -sn 10.31.19.0/24 -a
+  151  ping 10.31.17.101/19
+  152  ping -c 4 10.31.17.101\n
+  153  ping -c 10.31.17.101\n
+  154  ping 10.31.17.101\n
+  155  ifconfig
+  156  ping 10.31.0.1\n
+  157  ping 10.31.0.1 -a\n
+  158  ping 10.31.0.0 -a\n
+  159  ping 10.31.19.0 -a\n
+  160  ping 10.31.19.1 -a\n
+  161  ping 200~190.217.42.252 -a\n
+  162  ping 190.217.42.252 -a\n
+  163  ifconfig
+  164  arping 10.31.17.101
+  165  ar ping 10.31.17.101
+  166  sudo arpspoof -i wlan0 -t 10.31.17.101  10.31.31.255
+  167  sudo arpspoof -i wlan0 -t 10.31.17.101 10.31.31.255
+  168  sudo apt update
+  169  sudo apt search packages
+  170  sudo apt search default-packages
+  171  sudo apt search kali
+  172  sudo apt search kali-ev
+  173  sudo apt search kali-linux-
+  174  sudo apt install kali-linux-everything
+  175  sudo dpkg -i zoom_amd64.deb
+  176  exit
+  177  cd TodoGolf
+  178  git add .
+  179  git commit -m "avances en api y vista de admin"
+  180  git push
+  181  npm start
+  182  cd ..
+  183  cd api
+  184  node api.js
+  185  ifconfig
+  186  nmap -sn 10.31.19.0/23 
+  187  nmap -sn 10.31.19.0/24 
+  188  nmap -sV 10.31.19.0/24 
+  189  nmap -sn 10.31.19.0/19 -a
+  190  nmap -sn 10.31.19.0/19 
+  191  ping -c 8.8.8.8 -a
+  192  cd\ncat ../../etc/os-release
+  193  ping -v
+  194  ping -version
+  195  ping -ver
+  196  ping --v
+  197  ping -version
+  198  ping -ver
+  199  ping -ve
+  200  ping -V
+  201  sudo wire
+  202  sudo wireshark
+  203  ping -c 3 8.8.8.8
+  204  sudo apt install p7zip-full
+  205  apt --fix-broken install
+  206  sudo scapy
+  207  exit
+  208  sudo wireshark
+  209  exit
+  210  cd ..
+  211  tar -zcvf captura.zip wireshark
+  212  sudo tar -zcvf captura.zip wireshark
+  213  cd ..
+  214  git fetch
+  215  exit
+  216  cd ..
+  217  git add .
+  218  git commit -m "agregada tabla de template en vista shoppingCart.js sin tipografia de letra, se extendió el endpoint /solicitud-compra dentro de api, ahora hay comprobacion de stok mediante la implementacion de una funcion que recibe dos arrays"
+  219  git push
+  220  cd ..
+  221  cd api
+  222  node api.js
+  223  npm start
+  224  git fetch
+  225  git pull
+  226  git add .
+  227  git commit -m "aplicado el estilo de carroussel en home"
+  228  git push
+  229  exit
+  230  cd ..
+  231  cd api
+  232  node api.js
+  233  exit
+  234  exit
+  235  timedatectl set-local-rtc 1
+  236  exit
+  237  sudo dpkg -i discord-0.0.46.deb
+  238  exit
+  239  npm start
+  240  cd ..
+  241  cd api
+  242  node api.js
+  243  cd ..
+  244  git add .
+  245  git commit -m "corregiro redireccionamiento en proceso final de compra y arreglados los botones de pago"
+  246  git push
+  247  npm start
+  248  exit
+  249  cd ..
+  250  cd api
+  251  node api.js
+  252  cd ..
+  253  git add .
+  254  git commit -m "sutilezas, y footer añadido a proceso de checkout"
+  255  git push
+  256  cd Documents
+  257  cd VisualProyects
+  258  cd TodoGolf
+  259  git fetch
+  260  ping git
+  261  cd Documents
+  262  sudo python3 cesar.py "criptografia y seguridad en redes" 9
+  263  cd VisualProyects/
+  264  ls
+  265  cd lab_cripto
+  266  cd lab1
+  267  sudo python3 cesar.py "criptografia y seguridad en redes" 9
+  268  python3 enviar_icmp.py "criptografia y seguridad en redes"\n
+  269  python3 pingv4.py "criptografia y seguridad en redes"\n
+  270  sudo python3 pingv4.py "criptografia y seguridad en redes"\n
+  271  python3 pingv4.py "criptografia y seguridad en redes"\n
+  272  sudo python3 pingv4.py "criptografia y seguridad en redes"\n
+  273  sudo python3 cesar.py "criptografia y seguridad en redes" 9
+  274  sudo python3 pingv4.py "larycxpajorj h bnpdarmjm nw anmnb"\n\n
+  275  python3 readv2.py cesar.pcapng
+  276  sudo python3 readv2.py cesar.pcapng
+  277  sudo python3 pingv4.py "larycxpajorj h bnpdarmjm nw anmnb"\n\n
+  278  sudo python3 readv2.py cesar.pcapng
+  279  sudo python3 pingv4.py "larycxpajorj h bnpdarmjm nw anmnb"\n\n
+  280  sudo python3 readv2.py cesar.pcapng
+  281  exit
+  282  sudo wireshark
+  283  exit
+  284  ifconfig
+  285  exit
+  286  snap install spotify
+  287  curl -sS https://download.spotify.com/debian/pubkey_6224F9941A8AA6D1.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg\necho "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+  288  sudo apt-get update && sudo apt-get install spotify-client
+  289  spotify
+  290  sudo spotify
+  291  sudo python3 cesar.py "criptografia y seguridad en redes" 9
+  292  sudo python3 pingv4.py "larycxpajorj h bnpdarmjm nw anmnb" 
+  293  sudo python3 readv2.py cesar.pcapng
+  294  ifconfig
+  295  git fetch
+  296  cd ..
+  297  git fetch
+  298  git pull
+  299  cd web
+  300  git pull
+  301  git fetch
+  302  git pull
+  303  cd ..
+  304  git add .
+  305  git commit -m "no se por que, pero me pide guardar"
+  306  git pull
+  307  git push
+  308  git add .
+  309  git commit -m "detalles en panel de administracion"
+  310  git push
+  311  git add .
+  312  git commit -m "desplazamiento boton en home.js"
+  313  git push
+  314  cd ..
+  315  git add .
+  316  git commit -m "pequeños detalles esteticos en varias vistas"
+  317  git push
+  318  exit
+  319  npm start
+  320  cd ..
+  321  cd api
+  322  node api.js
+  323  cd Do
+  324  cd Documents
+  325  cd VisualProyects
+  326  cd lab_cripto
+  327  cd lab1
+  328  sudo python3 cesar.p
+  329  sudo python3 cesar.py "criptografia y seguridad en redes" 9
+  330  sudo python3 pingv4.py "larycxpajorj h bnpdarmjm nw anmnb" 
+  331  exit
+  332  npm start
+  333  cd ..
+  334  cd ap
+  335  cd api
+  336  node a
+  337  node api.js
+  338  sudo python3 paso1.py
+  339  sudo python3 Paso1.py "criptografia y seguridad en redes"
+  340  sudo python3 Paso1.py "criptografia y seguridad en redes" 9
+  341  sudo python3 Paso2.py "larycxpajorj h bnpdarmjm nw anmnb"\n
+  342  sudo python3 Paso3.py "captura.pcapng"
+  343  sudo apt install pyshark
+  344  sudo npm install pyshark
+  345  sudo nvm install pyshark
+  346  sudo install pyshark
+  347  sudo nvm install pyshark
+  348  sudo python3 Paso3.py "captura.pcapng"
+  349  sudo python3 Paso3.py captura.pcapng
+  350  chmod 777 cesar.pcapng
+  351  sudo chmod 777 cesar.pcapng
+  352  sudo python3 Paso1.py "criptografia y seguridad en redes" 9
+  353  sudo python3 Paso2.py "larycxpajorj h bnpdarmjm nw anmnb"\n
+  354  sudo python3 Paso3.py captura.pcapng
+  355  sudo python3 Paso3.py cesar.pcapng
+  356  sudo python3 Paso2.py "larycxpajorj h bnpdarmjm nw anmnb"\n
+  357  cd ..
+  358  cd Documents
+  359  cd VisualProyects/lab_cripto/lab1
+  360  sudo python3 Paso2.py "larycxpajorj h bnpdarmjm nw anmnb"\n
+  361  cd Documents/VisualProyects/lab_cripto/lab1
+  362  python3 pingv4.py "cripto"
+  363  sudo python3 pingv4.py "cripto"
+  364  sudo python3 paso2.py "cripto"
+  365  sudo python3 Paso2.py "cripto"
+  366  sudo python3 Paso3.py captura.pcapng
+  367  sudo python3 Paso2.py "cripto"
+  368  sudo python3 Paso3.py captura.pcapng
+  369  sudo wireshark
+  370  ping -c 3 127.0.0.1
+  371  ping -c 13 127.0.0.1
+  372  sudo dpkgg -i discord-0.0.47.deb
+  373  sudo dpkg -i discord-0.0.47.deb
+  374  exit
+  375  node -v
+  376  sudo apt update & sudo apt upgrade -y
+  377  sudo apt upgrade -y
+  378  sudo apt upgrade
+  379  apt --fix-broken install
+  380  sudo apt --fix-broken install
+  381  apt search docker
+  382  sudo apt install docker
+  383  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+  384  sudo apt uninstall apt-transport-https ca-certificates curl software-properties-common
+  385  sudo apt install -y docker.io
+  386  sudo systemctl enable docker --now
+  387  docker
+  388  sudo usermod -aG docker $USER
+  389  docker
+  390  sudo docker
+  391  docker ron
+  392  docker run
+  393  start docker
+  394  wget https://get.docker.io/gpg
+  395  apt-key add gpg
+  396  sudo apt-key add gpg
+  397  nano /etc/apt/sources.list
+  398  sudo nano /etc/apt/sources.list
+  399  apt-get update
+  400  sudo apt-get update
+  401  sudo nano /etc/apt/sources.list
+  402  sudo apt install gnome-terminal
+  403  sudo apt-get update\nsudo apt-get install ./docker-desktop-<3.51.90>-<kali1>.deb
+  404  sudo apt-get update\nsudo apt-get install ./docker-desktop-
+  405  sudo apt-get update\nsudo apt-get search ./docker-desktop-
+  406  sudo apt-get search docker
+  407  sudo apt search docker
+  408  sudo apt search docker-desktop
+  409  exit
+  410  sudo dpkg -i docker-desktop-4.28.0-amd64.deb
+  411  sudo apt install docker-ce-cli
+  412  sudo apt-get install docker-ce-cli
+  413  docker-ce-cli
+  414  sudo dpkg -i docker-desktop-4.28.0-amd64.deb
+  415  sudo dpkg  docker-desktop-4.28.0-amd64.deb
+  416  sudo dpkg --i docker-desktop-4.28.0-amd64.deb
+  417  sudo dpkg -i docker-desktop-4.28.0-amd64.deb
+  418  if config
+  419  ifconfig
+  420  hamster
+  421  exit
+  422  sudo docher ps
+  423  sudo docker ps
+  424  cd Documents/VisualProyects/lab_cripto/lab2
+  425  ls
+  426  sudo hydra -L useruarios.txt -P contrasenas.txt 'http-get-form://127.17.0.2:8880/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie:PHPSESSID=8kdvhdjdaics2eqjnfpguhi5k0; security=low:F=Username and/or password incorrect.' -I -V\n
+  427  sudo hydra -L usuarios.txt -P contrasenas.txt 'http-get-form://127.17.0.2:8880/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie:PHPSESSID=8kdvhdjdaics2eqjnfpguhi5k0; security=low:F=Username and/or password incorrect.' -I -V\n
+  428  sudo docker run --rm -it -p  8880:80 vulnerables/web-dvwa
+  429  sudo docker ps
+  430  sed -E 's/\b(\w)/\U\1/g;s/$/0/' diccionario.txt
+  431  sed -E 's/\b(\w)/\U\1/g;s/$/0/' claves.txt
+  432  sed -E 's/\b(\w)/\U\1/g;s/$/0/' diccionario.txt
+  433  sudo airodump -c 1 --bssid Telematica -w lala wlan1
+  434  sudo airodump-ng -c 1 --bssid Telematica -w lala wlan1
+  435  sudo airodump-ng -c 1 --bssid "Telematica" -w lala wlan1
+  436  sudo airodump-ng -c 1 -w lala wlan1
+  437  sudo airodump-ng -c 1 -w lala wlan1mon
+  438  ls
+  439  aircrack-ng -w diccionario.txt lala.cap
+  440  aircrack-ng -w diccionario.txt lala-01.cap
+  441  airodump-ng -c 11 --bssid 98:FC:11:86:B6:B9 -w lala-01.cap wlan1mon
+  442  sudo airodump-ng -c 11 --bssid 98:FC:11:86:B6:B9 -w lala-01.cap wlan1mon
+  443  aircrack-ng -w diccionario.txt lala-01.cap
+  444  aircrack-ng -w diccionario.txt captura-01.cap
+  445  aircrack-ng -w diccionario.txt lala-01.cap
+  446  aircrack-ng -w diccionario.txt lala-05.cap
+  447  aircrack-ng -w diccionario.txt lala-05
+  448  aircrack-ng -w diccionario.txt lala-05.csv
+  449  aircrack-ng -w diccionario.txt lala-04.csv
+  450  aircrack-ng -w diccionario.txt lala-04.cap
+  451  sudo aircrack-ng -w diccionario.txt lala-04.cap
+  452  sudo aircrack-ng kill
+  453  sudo rm -r lala
+  454  sudo rm lala
+  455  ls
+  456  lsusb
+  457  sudo airmon-ng start
+  458  if config
+  459  ifconfig
+  460  sudo airmon-ng start wlan1
+  461  sudo airodump-ng start wlan1
+  462  sudo airodump-ng wlan1
+  463  sudo airmon-ng start wlan1
+  464  sudo airodump-ng wlan1
+  465  ifconfig
+  466  sudo airodump-ng wlan1mon
+  467  sudo airodump-ng -w lala wlan1mon
+  468  airodump-ng -c 11 -w lala wlan0
+  469  sudo airodump-ng -c 11 -w lala wlan0
+  470  airodump-ng -c 11 -w captura wlan1mon
+  471  sudo airodump-ng -c 11 -w captura wlan1mon
+  472  aircrack-ng -w diccionario.txt -b  98:FC:11:86:B6:B9 captura-01.cap
+  473  sudo apt update\n
+  474  sudo apt upgrade
+  475  sudo dpkg -i discord-0.0.50.deb
+  476  apt-cache search sound driver
+  477  sudo apt install alsa-driver
+  478  git fetch
+  479  git pull
+  480  npm start
+  481  cd ..
+  482  cd api
+  483  node api.js
+  484  sudo dpkg -i discord-0.0.50.deb
+  485  npm start
+  486  sudo chmod 777 .
+  487  apt-get update
+  488  sudo apt-get update
+  489  apt-get install rar
+  490  sudo apt-get install rar
+  491  unzoo -xp *
+  492  \t\nsudo apt-get install rar
+  493  ls
+  494  unrar x 4-yeOKe8RnVc.rar
+  495  ifconfig
+  496  ip route | grep default | awk '{print $3}'
+  497  ip route
+  498  ip route | grep default | awk '{print $3}' -> nmap
+  499  nmap ip route | grep default | awk '{print $3}'
+  500  nmap (ip route | grep default | awk '{print $3}')
+  501  iwconfig
+  502  ip route -n | grep default | awk '{print $3}'
+  503  route -n
+  504  nmap (ip route | grep default | awk '{print $3}')
+  505  ip route -n | grep default | awk '{print $3}'
+  506  ip (route | grep default | awk '{print $3}'
+  507  ip (route | grep default | awk '{print $3}')
+  508  ip route | grep default | awk '{print $3}'
+  509  nmap (ip route | grep default | awk '{print $3}')
+  510  nmap -sl (ip route | grep default | awk '{print $3}')
+  511  nmap -sV (ip route | grep default | awk '{print $3}')
+  512  nmap -sV $(ip route | grep default | awk '{print $3}')
+  513  nmap $(ip route | grep default | awk '{print $3}')
+  514  nmap -a $(ip route | grep default | awk '{print $3}')
+  515  nmap -allports -T5 $(ip route | grep default | awk '{print $3}')
+  516  nmap -allports $(ip route | grep default | awk '{print $3}')
+  517  ifconfig
+  518  airmon-ng start wlan1\n
+  519  sudo airmon-ng start wlan1\n
+  520  airodump-ng wlan1mon
+  521  sudo airodump-ng wlan1mon
+  522  airodump-ng -c 6 --bssid airodump-ng -c [canal] --bssid B0:48:7A:D2:DD:74 -w output wlan1mon\n
+  523  airodump-ng -c 6 --bssid airodump-ng -c [canal] --bssid "B0:48:7A:D2:DD:74" -w output wlan1mon\n
+  524  airodump-ng -c 6 --bssid B0:48:7A:D2:DD:74 -w output wlan1mon\n
+  525  sudo airodump-ng -c 6 --bssid B0:48:7A:D2:DD:74 -w output wlan1mon\n
+  526  ls
+  527  aircrack-ng -b B0:48:7A:D2:DD:74 output-01.cap
+  528  ls
+  529  aireplay-ng -0 10 -a B0:48:7A:D2:DD:74 wlan1mon
+  530  sudo aireplay-ng -0 10 -a B0:48:7A:D2:DD:74 wlan1mon
+  531  ls
+  532  aireplay-ng -1 0 -a B0:48:7A:D2:DD:74 wlan1mon
+  533  sudo aireplay-ng -1 0 -a B0:48:7A:D2:DD:74 wlan1mon
+  534  ls
+  535  cd Documents/VisualProyects/lab_cripto/lab3
+  536  ls
+  537  cd ultimo
+  538  airdecap-ng -w 1234567890 output-01.cap
+  539  ls
+  540  grep -E '^[^0-9]' rockyou.txt | sed 's/^\(.\)/\U\1/' | awk '{print $0"0"}' > rockyou_mod.dic\n
+  541  aircrack-ng -w rockyou_mod.dic -b B0:48:7A:D2:DD:74 output-01.cap
+  542  aircrack-ng -w rockyou_mod.dic -b B0:48:7A:D2:DD:74 handshake.pcap
+  543  aircrack-ng -w rockyou_mod.dic -b ee:de:67:8c:df:8b handshake.pcap
+  544  aircrack-ng -w rockyou_mod.dic -b b0:48:7a:d2:dc:18 handshake.pcap
+  545  hcxpcapngtool -o handshake.hc22000 handshake.pcap\n
+  546  hashcat -m 2500 handshake.hc22000 rockyou_mod.dic\n
+  547  hashcat -m 22000 handshake.hc22000 rockyou_mod.dic\n
+  548  vim pycrack_script.py
+  549  python pycrack_script.py handshake.pcap rockyou_mod.dic
+  550  python pycrack_script handshake.pcap rockyou_mod.dic
+  551  ls
+  552  python pycrack_script.py handshake.pcap rockyou_mod.dic
+  553  python3 pycrack_script.py handshake.pcap rockyou_mod.dic
+  554  pip install pycrack\n
+  555  python3 pycrack_script.py handshake.pcap rockyou_mod.dic
+  556  vim pycrack_script.py
+  557  sudo python3 pycrack_script.py handshake.pcap rockyou_mod.dic
+  558  sudo pip3 install pycrack
+  559  sudo python3 pycrack_script.py handshake.pcap rockyou_mod.dic
+  560  vim pycrack_script.py
+  561  pip3 install pycrack
+  562  sudo pip3 install -g pycrack
+  563  sudo pip3 install pycrack
+  564  root
+  565  sudo
+  566  sudo su
+  567  sudo pip3 uninstall pycrack
+  568  pip3 uninstall pycrack
+  569  pip install pycrack
+  570  sudo python3 pycrack_script.py handshake.pcap rockyou_mod.dic
+  571  python3 pycrack_script handshake.pcap rockyou_mod.dic
+  572  python3 pycrack_script.py handshake.pcap rockyou_mod.dic
+  573  pip pycrack_script.py handshake.pcap rockyou_mod.dic
+  574  sudo dpkg -i discord-0.0.54.deb
+  575  pip pywd.py
+  576  python pywd.py
+  577  hashcat -m 22000 handshake.hccapx rockyou.txt --potfile-disable\n
+  578  hashcat -m 22000 handshake.hc22000 rockyou_mod.dic --potfile-disable\n
+  579  split -b 50M rockyou.txt diccionario_parte
+  580  split -b 50M rockyou_mod.dic rockyou_mod_parte
+  581  vim README.txt
+  582  exit
+  583  git init\n
+  584  git add .
+  585  git commit -m "Laboratorio 3 de criptografía completado"
+  586  git remote add origin https://github.com/javierITB/Lab-3-Criptograf-a.git
+  587  git branch -M main\ngit push -u origin main
+  588  git branch -M main\n
+  589  git push
+  590  git push -u origin main
+  591  git config --global credential.helper store\n
+  592  git credential approve
+  593  git config --global user.name "JavierITB"
+  594  git config --global user.email "vicente.torresb@mail.udp.cl"
+  595  git config --global credential.helper\n
+  596  git credential approve
+  597  git config --global credential.helper store\n
+  598  git config --global
+  599  git credential approve
+  600  git push -u origin main
+  601  git add .
+  602  git push -u origin main
+  603  git add .
+  604  git push -u origin main
+  605  git filter-repo --strip-blobs-bigger-than 100M\n
+  606  bfg --strip-blobs-bigger-than 100M\n
+  607  apt search BFG Repo-Cleaner
+  608  apt install BFG 
+  609  sudo apt install BFG Repo-Cleaner
+  610  sudo apt install bfg
+  611  sudo apt-get install bfg
+  612  git push -u origin main --force\n
+  613  git refresh
+  614  git add .
+  615  git pull
+  616  git branch --set-upstream-to=origin/<rama> main\n
+  617  git branch --set-upstream-to=origin/main\n
+  618  git branch --set-upstream-to=origin/master\n
+  619  git branch --set-upstream-to=master\n
+  620  git init\n
+  621  git add .
+  622  git remote add origin https://github.com/javierITB/Lab-3-Criptograf-a.git
+  623  git branch -M main
+  624  git push -u origin main
+  625  git config --global user.name "JavierITB"
+  626  git config --global user.email "vicente.torresb@mail.udp.cl"
+  627  git push -u origin main
+  628  git push -u origin master
+  629  git branch -M master
+  630  git push -u origin master
+  631  git push -u origin main
+  632  git credential approve
+  633  git config --global credential.helper\n
+  634  git credential approve
+  635  git remote add origin https://github.com/javierITB/Lab-3-Criptograf-a.git
+  636  git branch -M main
+  637  git add .
+  638  git push 
+  639  git push -
+  640  git push -u origin main
+  641  git branch\n
+  642  git remote -v\n
+  643  git commit -m "Primer commit"\n
+  644  git branch\n
+  645  git push -u origin main\n
+  646  sudo apt update\nsudo apt upgrade -y\nsudo apt dist-upgrade -y\nsudo apt autoremove -y\n
+  647  sudo dpkg -i discord-0.0.55.deb
+  648  rm discord-0.0.46.deb
+  649  rm discord-0.0.47.deb
+  650  rm discord-0.0.50.deb
+  651  rm discord-0.0.54.deb
+  652  rm discord-0.0.55.deb
+  653  exit
+  654  sudo chmod 777 ./
+  655  sudo chmod 777 
+  656  cd ..
+  657  chmod 777 chill
+  658  sudo chmod 777 chill
+  659  ls
+  660  sudo apt install libreoffice -y\n
+  661  ls
+  662  sudo systemctl restart gdm
+  663  sudo systemctl start gdm
+  664  sudo systemctl restart lightdm
+  665  sudo systemctl start lightdm
+  666  cat etc/X11/default-display-manager
+  667  ls
+  668  cd ..
+  669  ls
+  670  cd ..
+  671  ls
+  672  cd etc
+  673  ls
+  674  cd x11
+  675  cd X11
+  676  ls
+  677  cat default-display-manager
+  678  sudo systemctl start gdm3
+  679  sudo systemctl restart gdm3
+  680  cd 
+  681  sudo apt update
+  682  reboot
+  683  sudo apt install kali-desktop-gnome
+  684  apt --fix-broken install
+  685  sudo apt --fix-broken install
+  686  sudo apt install kali-desktop-gnome
+  687  btscanner
+  688  ls
+  689  vim lala
+  690  bluesnarfer
+  691  sudo bluesnarfer
+  692  sudo apt install bluetooth bluez blueman\n
+  693  sudo systemctl enable bluetooth\nsudo systemctl start bluetooth\n
+  694  blueman-manager\n
+  695  sudo apt update\nsudo apt install bluez\nsudo apt install hcxdumptool\n
+  696  sudo apt autoremove
+  697  sudo hciconfig hci0 up\nsudo hciconfig hci0 piscan\n
+  698  sudo hcitool scan\n
+  699  blueman-manager\n
+  700  sudo l2ping -f -i 0.1 57d80428eafb
+  701  sudo l2ping -f -i 0.1 57:d8:04:28:ea:fb\n
+  702  vim bluetooth.sh
+  703  chmod +x bluetooth.sh\n
+  704  sudo ./bluetooth.sh\n
+  705  vim bluetooth.sh
+  706  sudo hcitool scan\n
+  707  blueman-manager\n
+  708  hciconfig\n
+  709  /bin/python3.12 /home/vixo/Documents/VisualProyects/Bluetooth.py
+  710  sudo apt update\nsudo apt install python3-scapy\n
+  711  /bin/python3.12 /home/vixo/Documents/VisualProyects/Bluetooth.py
+  712  chmod +x Bluetooth.py\n
+  713  cd ..
+  714  ls
+  715  chmod +x Bluetooth.py\n
+  716  /bin/python3.12 /home/vixo/Documents/VisualProyects/Bluetooth.py
+  717  ls
+  718  sudo ./Bluetooth.py
+  719  sudo apt update\nsudo apt install python3-scapy\n
+  720  vim DescifradorDeMensajes.js
+  721  git add .
+  722  git commit -m "agregado js"
+  723  git push
+  724  exit
+  725  git init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/javierITB/Lab-4Criptografia.git\ngit push -u origin main
+  726  git init\ngit add .\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/javierITB/Lab-4Criptografia.git\ngit push -u origin main
+  727  exit
+  728  cd fatt/\npip3 install pipenv\npipenv install
+  729  pip3 install pipenv\npipenv install
+  730  python3 --version
+  731  sudo apt-get install python
+  732  sudo apt-get search python
+  733  sudo apt search python
+  734  sudo apt search python3.7
+  735  sudo apt install python3.7
+  736  vim generadorHash.py
+  737  python3 generadorHash.py
+  738  vim generadorHash.py
+  739  python3 generadorHash.py
+  740  vim generadorHash.py
+  741  python3 generadorHash.py
+  742  vim generadorHash.py
+  743  python3 generadorHash.py
+  744  cat fatt.log | jq -r '\n    if .ssh.hasshServerAlgorithms then\n        (.ssh.hasshServerAlgorithms | split(";") | join(","))\n    elif .ssh.hasshAlgorithms then\n        (.ssh.hasshAlgorithms | split(";") | join(","))\n    else\n        empty\n    end\n' | while read line; do echo -n $line | md5sum | awk '{print $1}'; done\n
+  745  exit
+  746  tshark -r ../handshakeSSH.pcap -Y "ssh.kex.init" -T fields -e ssh.kex.algs -e ssh.hostkey.algs -e ssh.encryption.algs -e ssh.mac.algs -e ssh.compress.algs > ssh_kex_init.txt\n
+  747  exit
+  748  pip3 install pipenv\npipenv install
+  749  python3 fatt.py -h
+  750  pip install pyshark
+  751  python3 fatt.py -h
+  752  ls
+  753  ls ..
+  754  python3 fatt.py -h -r ../captura_handshake.pcapng
+  755  python3 fatt.py -r ../captura_handshake.pcapng -p -j; cat fatt.log | python -m json.tool
+  756  python3 fatt.py -r ../captura_handshake.pcapng -p -j
+  757  python3 fatt.py -r ../captura_handshake.pcapng -p -j; cat fatt.log | python -m json.tool
+  758  python3 fatt.py -r ../captura_handshake.pcapng -p
+  759  python3 fatt.py -r ../captura_handshake.pcapng
+  760  python3 fatt.py -r ../captura_handshake.pcapng -p -j; cat fatt.log | python -m json.tool
+  761  python3 fatt.py -r ../handshakeSSH.pcap -p -j; cat fatt.log | python -m json.tool
+  762  sudo dpkg -i discord-0.0.57.deb
+  763  exit
+  764  sudo dpkg -i Termius.deb
+  765  exit
+  766  git fetch
+  767  git pull
+  768  git add .
+  769  git commit -m "cambios"
+  770  git push
+  771  git fetch
+  772  git pull
+  773  git push
+  774  exit
+  775  sudo apt-get update
+  776  sudo apt-get install -y docker.io
+  777  sudo systemctl start docker
+  778  sudo systemctl enable docker
+  779  docker run -d --name C1 ubuntu:16.10 sleep infinity\n
+  780  docker run -d --name C2 ubuntu:18.10 sleep infinity\n
+  781  docker run -d --name C3 ubuntu:20.10 sleep infinity\n
+  782  docker exec C1 apt-get update && docker exec C1 apt-get install -y openssh-client\ndocker exec C2 apt-get update && docker exec C2 apt-get install -y openssh-client\ndocker exec C3 apt-get update && docker exec C3 apt-get install -y openssh-client\ndocker exec C4 apt-get update && docker exec C4 apt-get install -y openssh-client\n
+  783  docker run -d --name C4 ubuntu:22.10 sleep infinity\ndocker run -d --name S1 ubuntu:22.10 sleep infinity\n
+  784  docker stop C4 || docker stop S1
+  785  docker stop C4
+  786  docker stop S1
+  787  docker
+  788  docker stats
+  789  docker run -d --name S1_C4 ubuntu:22.10 sleep infinity\n
+  790  docker stats
+  791  docker exec S1_C4 apt-get update && docker exec S1_C4 apt-get install -y openssh-client openssh-server\n
+  792  docker exec -it S1_C4 bash\n
+  793  vim sources.list
+  794  docker cp sources.list S1_C4:/etc/apt/sources.list\n
+  795  docker cp sources.list C1:/etc/apt/sources.list\n
+  796  docker cp sources.list C2:/etc/apt/sources.list\n
+  797  docker cp sources.list C3:/etc/apt/sources.list\n
+  798  vim sources.list
+  799  docker exec -it S1_C4 bash\napt-get update\napt-get install -y openssh-client openssh-server
+  800  docker exec -it C1 bash
+  801  docker exec -it C2 bash
+  802  docker exec -it S1_C4 bash
+  803  docker exec S1_C4 service ssh start\n
+  804  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' S1_C4\n
+  805  docker exec -it C1 bash
+  806  ls
+  807  ls Documents/VisualProyects/lab_cripto/lab5
